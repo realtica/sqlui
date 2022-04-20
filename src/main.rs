@@ -24,7 +24,9 @@ struct Endpoint {
 async fn main() -> Result<()> {
     // simple_logging::log_to_file("test.log", LevelFilter::Info);
     // let connection_string = "mysql://root:@k3y3d-1n@@localhost:3316/keke6196_keyed_in_pe";
-    let toml_str: String = fs::read_to_string("endpoints.toml")?.parse()?;
+    let config_path = format!("{}/sqlui/config.toml", dirs::config_dir().unwrap().to_str().unwrap());
+    println!("{}", config_path);
+    let toml_str: String = fs::read_to_string(config_path)?.parse()?;
     println!("{}", toml_str);
     let config: Config = toml::from_str(&toml_str).unwrap();
     let config = Rc::new(RefCell::new(config));

@@ -24,3 +24,13 @@ once_cell = "1.10.0"
 toml = "0.5"
 serde_derive = "1.0"
 serde = "1.0.97"
+dirs = "4.0.0"
+
+[package.metadata.bundle]
+name = "sqlui"
+identifier = "com.realtica.sqlui"
+icon = ["icon.png"]
+version = "0.1.0"
+resources = ["endpoints.toml"]
+category = "Developer Tool"
+short_description = "Blazing Fast, lightweight, small binary and crossplatform, database client"

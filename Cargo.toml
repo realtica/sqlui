@@ -5,7 +5,7 @@ edition = "2021"
 description = "Blazing Fast, lightweight, small binary and crossplatform, database client"
 keywords = ["gui", "mysql", "database", "client", "tool"]
 categories = ["database"]
-license = "GPL"
+license = "GPL-3.0-or-later"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]

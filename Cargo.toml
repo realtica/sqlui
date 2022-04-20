@@ -1,6 +1,6 @@
 [package]
 name = "sqlui"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 description = "Blazing Fast, lightweight, small binary and crossplatform, database client"
 keywords = ["gui", "mysql", "database", "client", "tool"]

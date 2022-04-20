@@ -13,10 +13,9 @@ fltk = "1.3.2"
 fltk-table = "0.2.1"
 fltk-theme = "0.4.0"
 log = { version = "0.4", features = ["max_level_info", "release_max_level_warn"] }
-# mysql = "*"
-mysql = { version = "*", default-features = false, features = ["rustls-tls", "buffer-pool"] }
-flate2 = { version = "*", default-features = false, features = ["zlib"] }
-mysql_common = { version = "*", default-features = false, features = ["bigdecimal03", "time03", "uuid"]}
+mysql = { version = "22.1.0", default-features = false, features = ["rustls-tls", "buffer-pool"] }
+flate2 = { version = "1.0.23", default-features = false, features = ["zlib"] }
+mysql_common = { version = "0.28.2", default-features = false, features = ["bigdecimal03", "time03", "uuid"]}
 tokio = { version = "1.17.0", features = ["full"] }
 crossbeam-channel = "0.5"
 smol = "1.2.5"

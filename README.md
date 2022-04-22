@@ -1,4 +1,26 @@
-## Installation
+# sqlui
+
+![Crates.io](https://img.shields.io/crates/v/sqlui)
+![Crates.io](https://img.shields.io/crates/d/sqlui)
+![Crates.io](https://img.shields.io/crates/l/sqlui)
+
+
+The sqlui crate is blazing fast, lightweight, small binary and crossplatform, database client.
+
+### Why choose sqlui?
+
+- Very fast database viewer.
+- Only uses ~20MB of RAM.
+- Very low use of CPU.
+- Crossplatform and compatible with Single-board computer like Raspberry.
+
+### Installation
+
+```
+cargo install sqlui
+```
+
+### Configuration
 
 Please create a config.toml into system config path:
 

@@ -4,6 +4,9 @@
 ![Crates.io](https://img.shields.io/crates/d/sqlui)
 ![Crates.io](https://img.shields.io/crates/l/sqlui)
 
+### Video Demo: https://youtu.be/cb1F_MkoCoE
+
+### Description: 
 
 The sqlui crate is blazing fast, lightweight, small binary and crossplatform, database client.
 

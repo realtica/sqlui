@@ -9,6 +9,7 @@
 ### Description: 
 
 The sqlui crate is blazing fast, lightweight, small binary and crossplatform, database client.
+You can easily query any data from Mysql,(SQLite, SQL Server, PostgreSQL, soon), from local or remote server(rustls), find over any column in a table, the main objective of sqlui is the performance and speed.
 
 ### Why choose sqlui?
 
